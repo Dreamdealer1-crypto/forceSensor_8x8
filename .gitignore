@@ -1,0 +1,58 @@
+# Build outputs
+build/
+Debug/
+Release/
+.pio/
+cmake/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.o
+*.d
+
+# IDE metadata
+.settings/
+.metadata/
+*.launch
+
+# Local machine overrides
+*.local.ps1
+
+# Python/runtime caches
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Runtime / generated data
+data/
+*.csv
+*.xls
+*.xlsx
+*.log
+*.tmp
+*.bak
+*.pdf
+*.docx
+
+# Keep curated report figures under version control when explicitly added.
+!reports/
+!reports/figures/
+!reports/figures/**
+
+# Firmware CMake build directory (generated)
+firmware/cmake/
+
+# Generated code-package handoff exports
+packages/
+
+# Superseded / aborted first-attempt capture runs (accepted runs committed separately)
+data/adc_01/20260815_060931_run01/
+data/adc_01/20260815_061028_run02/
+data/adc_03a/20260815_062545_run01/

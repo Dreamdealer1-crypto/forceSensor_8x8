@@ -1,0 +1,54 @@
+{
+  "alignment": "contact-onset alignment; ADC contact threshold and force contact threshold are separately detected",
+  "events": {
+    "adc_threshold": 300.0,
+    "adc_contact_i": 714,
+    "adc_contact_s": 45.499852000000004,
+    "adc_peak_i": 813,
+    "adc_peak_s": 51.807111000000006,
+    "adc_release_i": 1224,
+    "adc_release_s": 77.99395,
+    "force_threshold": 0.5,
+    "force_contact_i": 81,
+    "force_contact_s": 8.1,
+    "force_peak_i": 228,
+    "force_peak_s": 22.8
+  },
+  "crop_window_s": [
+    37.499852000000004,
+    83.99395
+  ],
+  "target": {
+    "row": 4,
+    "col": 3
+  },
+  "fit_models": {
+    "linear": {
+      "coef": [
+        0.002002065653691889,
+        -1.514524027766999
+      ],
+      "r2": 0.5333446343317622
+    },
+    "quadratic": {
+      "coef": [
+        1.4284991311260095e-07,
+        -0.0002624760817572879,
+        0.15484739696115407
+      ],
+      "r2": 0.5443110892395076
+    }
+  },
+  "diagnosis": {
+    "adc_contact_to_peak_s": 6.307259000000002,
+    "force_contact_to_peak_s": 14.700000000000001,
+    "interpretation": "ADC and force have different contact-to-peak durations; expect nonlinearity/slip/local contact effects, not a pure time shift."
+  },
+  "outputs": [
+    "01_raw_data_full.svg",
+    "02_filtered_force_overlay.svg",
+    "03_force_adc_response.svg",
+    "04a_peak_heatmap_2d_values.svg",
+    "04b_peak_heatmap_3d_values.svg"
+  ]
+}

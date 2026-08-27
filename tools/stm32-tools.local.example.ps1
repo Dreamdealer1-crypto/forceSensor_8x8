@@ -1,0 +1,5 @@
+$script:STM32ProgrammerCli = 'D:\STM32CubeCLT_1.22.0\STM32CubeProgrammer\bin\STM32_Programmer_CLI.exe'
+$script:ArmNoneEabiGcc = 'D:\STM32CubeCLT_1.22.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe'
+$script:CMake = 'D:\STM32CubeCLT_1.22.0\CMake\bin\cmake.exe'
+$script:Ninja = 'D:\STM32CubeCLT_1.22.0\Ninja\bin\ninja.exe'
+$script:Make = 'D:\STM32CubeCLT_1.22.0\Make\bin\make.exe'
